@@ -61,6 +61,31 @@ namespace DAL.Context
                 Sector = "Les fishsticks"
             }
         };
+        public static List<Company> Companies = new List<Company>()
+        {
+            new Company()
+            {
+                Id = 1,
+                Name = "Sumsung",
+                Localisation = "Berlin",
+                TVA = 123123
+            },
+            new Company()
+            {
+                Id = 2,
+                Name = "Sony",
+                Localisation = "Brussels",
+                TVA = 456456
+            },
+            new Company()
+            {
+                Id = 3,
+                Name = "Oppo",
+                Localisation = "Sony",
+                TVA = 789789
+            },
+
+        };
     }
 }
 
